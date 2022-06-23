@@ -1,0 +1,19 @@
+     		        Vértice A		 Vértice B
+		        (X, Y)			 (X , Y)
+		        /------------------------\
+		       /	base menor	  \
+		      /			           \
+		     /			            \
+		    /			             \
+		   /			              \
+		  /			               \
+		 /		Base Mayor        	\
+		/----------------------------------------\
+		Vértice D		                 Vertice C
+		(X, Y)			                 (X , Y)
+
+Para facilitar la entrada de las coordenadas de cada vértice, solo tendrá que ingresar 
+las coordenadas 'X' e 'Y' del vértice 'A', y la coordenada 'X' del vértice 'C'.
+El resto de los lados se calculan automaticamente ya que el trapecio tiene un par de
+lados iguales en los opuestos, y un par desiguales.
+Como referencia, el vértice 'D' tiene la coordenada (0, 0).

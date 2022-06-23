@@ -1,0 +1,17 @@
+		Vértice A		      Vértice B
+		(X, Y)			      (X , Y)
+		|------------------------------|
+		|       		       |
+		|      		               |
+		|    			       |
+		|   			       |
+		|  			       |
+		| 			       |
+		|------------------------------|
+		Vértice D		       Vertice C
+		(X, Y)			       (X , Y)
+
+Para facilitar la entrada de las coordenadas de cada vértice, solo tendrá
+que ingresar la coordenada 'X' del vértice 'C', y la coordenada 'Y' del vértice 'A'.
+El resto de los lados son dos pares iguales en los opuestos por ser un rectángulo
+Como referencia, el vértice 'D' tiene la coordenada (0, 0).

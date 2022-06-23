@@ -1,0 +1,20 @@
+		Vértice A		Vértice B
+		(X, Y)			(X , Y)
+		|-----------------------|
+		|			|
+		|			|
+		|			|
+		|			|
+		|			|
+		|			|
+		|			|
+		|			|
+		|-----------------------|
+		Vértice D	        Vertice C
+		(X, Y)			(X , Y)
+
+Para facilitar el ingreso de las coordenadas de cada vértice, solo tendrá
+que ingrear la coordenada 'X' del Vertice 'C'; lo que equvaldría la longitud
+de un lado. El resto de los lados serán iguales, ya que corresponde a la
+figura del cuadrado.
+Como referencia, el vértice 'D' tiene la coordenada (0, 0).
