@@ -8,7 +8,7 @@ namespace Clase16_Ejercicio.Moldes
 {
     internal class Rectangulo : Cuadrilatero
     {
-        public Rectangulo(double Base, double Altura) : base(Base, Altura) // Base = VerticeA_CoordX, Altura = VerticeA_CoordY
+        public Rectangulo(double VerticeCCoordX, double VerticeACoordY) : base(0, VerticeACoordY, VerticeCCoordX, VerticeACoordY, VerticeCCoordX, 0, 0, 0)
         {
 
         }

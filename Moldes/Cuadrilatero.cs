@@ -17,51 +17,17 @@ namespace Clase16_Ejercicio.Moldes
         private double _verticeDCoordY { get; set; }
 
 
-        public Cuadrilatero(double DistanciaIngresada)// Constructor para Cuadrado
+        public Cuadrilatero(double VerticeACoordX, double VerticeACoordY, double VerticeBCoordX, double VerticeBCoordY, double VerticeCCoordX, double VerticeCCoordY, double VerticeDCoordX, double VerticeDCoordY)
         {
-            _verticeACoordX = 0;
-            _verticeACoordY = DistanciaIngresada;
-
-            _verticeBCoordX = DistanciaIngresada;
-            _verticeBCoordY = DistanciaIngresada;
-
-            _verticeCCoordX = DistanciaIngresada;
-            _verticeCCoordY = 0;
-
-            _verticeDCoordX = 0;
-            _verticeDCoordY = 0;
+            _verticeACoordX = VerticeACoordX;
+            _verticeACoordY = VerticeACoordY;
+            _verticeBCoordX = VerticeBCoordX;
+            _verticeBCoordY = VerticeBCoordY;
+            _verticeCCoordX = VerticeCCoordX;
+            _verticeCCoordY = VerticeCCoordY;
+            _verticeDCoordX = VerticeDCoordX;            
+            _verticeDCoordY = VerticeDCoordY;
         }
-
-        public Cuadrilatero(double Base, double Altura) // Constructor para Rectangulo
-        {
-            _verticeACoordX = 0;
-            _verticeACoordY = Altura;
-
-            _verticeBCoordX = Base;
-            _verticeBCoordY = Altura;
-
-            _verticeCCoordX = Base;
-            _verticeCCoordY = 0;
-
-            _verticeDCoordX = 0;
-            _verticeDCoordY = 0;
-        }
-
-        public Cuadrilatero(double VerticeA_CoordX, double VerticeA_CoordY, double VerticeC_CoordX) // Constructor Trapecio
-        {
-            _verticeACoordX = VerticeA_CoordX;
-            _verticeACoordY = VerticeA_CoordY;
-
-            _verticeBCoordX = VerticeC_CoordX - VerticeA_CoordX;
-            _verticeBCoordY = VerticeA_CoordY;
-
-            _verticeCCoordX = VerticeC_CoordX;
-            _verticeCCoordY = 0;
-
-            _verticeDCoordX = 0;
-            _verticeDCoordY = 0;
-        }
-
 
         public double CalculoArea()
         {
