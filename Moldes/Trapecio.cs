@@ -11,5 +11,10 @@ namespace Clase16_Ejercicio.Moldes
         {
 
         }
+
+        public override double CalculoArea()
+        {
+            return ( (VerticeCCoordX + (VerticeCCoordX - VerticeACoordX) ) / 2) * VerticeACoordY;
+        }
     }
 }
